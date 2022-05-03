@@ -9,11 +9,11 @@ blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}
 input,select,textarea,button {font-size:100%;vertical-align:middle}
 button {border:0 none;background-color:transparent;cursor:pointer}
 table {border-collapse:collapse;border-spacing:0}
-body{-webkit-text-size-adjust:none} input[type='text'],input[type='password'],input[type='submit'],input[type='search'] {-webkit-appearance:none; border-radius:0}
+body{-webkit-text-size-adjust:none} input[type='text'],input[type='password'],input[type='submit'],input[type='search'] {-webkit-appearance:none; border-radius:0} 
 input:checked[type='checkbox'] {background-color:#666; -webkit-appearance:checkbox}
 button,input[type='button'],input[type='submit'],input[type='reset'],input[type='file'] {-webkit-appearance:button; border-radius:0}
-body {min-width:320px;background-color:#fff}
-body,th,td,input,select,textarea,button {font-size:14px;line-height:1.5;font-family:'Malgun Gothic', '맑은 고딕', sans-serif;color:#333}
+body {min-width:320px;background-color:#fff} 
+body,th,td,input,select,textarea,button {font-size:14px;line-height:1.5;font-family:'Malgun Gothic', '맑은 고딕', sans-serif;color:#333} 
 
 a {color:#333;text-decoration:none} a:active, a:hover {text-decoration:none}
 address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
@@ -49,3 +49,35 @@ address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
 .wrap_viewer .top_viewer {position:fixed;top:0;left:0;width:100%;height:40px;line-height:38px;background-color:#ccc;text-align:center}
 .wrap_viewer .top_viewer .btn_close {position:absolute;top:0;right:0;width:40px;height:40px}
 .wrap_viewer .wrap_images img {display:block;min-width:320px;width:100%}
+
+
+/*로그인*/
+
+.loginBody{
+    height: 100%;
+    width: 100%;
+    margin-top: 9%;
+}
+
+.loginTitle{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #8795a1;    
+}
+
+
+.loginBox{
+    padding: 30px;
+    width: 400px;
+    margin: auto;
+    height: 584px;
+    background-color: #fff6ea;
+    text-align: center;
+}
+
+.loginBtn{
+    width: calc(80% - 10px);  
+}
+
+.tl{text-align: left;}
+.tr{text-align: right;}
